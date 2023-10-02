@@ -6,36 +6,19 @@
     <title>BURTI</title>
 </head>
 <body>
-  <label for="itemsSelect">Izvēlies preci: </label>
+  <label for="itemsSelect">Prece: </label>
   <select id="itemsSelect">
     <option value="">Izvēlēties</option>
   </select>
 
-  <!-- Pārējie dropdown priekš varieties -->
+  <!-- Container to hold dynamic dropdowns -->
   <br>
   <br>
-  <label for="colorSelect">Pieejamās krāsas: </label>
-  <select id="colorSelect">
-    <option value="">Izvēlēties</option>
-  </select>
-
-  <br>
-  <br>
-  <label for="sizeSelect">Pieejamie izmēri: </label>
-  <select id="sizeSelect">
-    <option value="">Izvēlēties</option>
-  </select>
-
-  <br>
-  <br>
-  <label for="shoeSizeSelect">Pieejamie izmēri: </label>
-  <select id="shoeSizeSelect">
-    <option value="">Izvēlēties</option>
-  </select>
+  <div id="varietiesContainer"></div>
 
   <h1 id="selectedItem">Preces kods: </h1>
 
- <script src="script.js"></script>
+ <script src="script.js" type="module"></script>
 </body>
 </html>
 
